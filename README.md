@@ -20,9 +20,9 @@ To handle google credentials in Python you can refer to [this](https://gspread.r
 
 Ipm running the code on a Raspberry pi that use raspbian. Hence, I schedure the job by means of `crontab`. Currently the temperature is registered every 5 minutes using the following setting:
 
-`*/5 * * * *   <path_to_python_interpreter>   <path_to_project/pylloger.py>`
+`*/5 * * * *   <path_to_python_interpreter>   <path_to_project/pyloger.py>`
 
-### Tips
+### Further tip
 
 Google spreadsheet, by default, are created with 1000 empty rows. You must delete them all because `pylogger.py` appends new data at the end of the specified google spreadsheet creating a new row.
 
