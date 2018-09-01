@@ -10,7 +10,7 @@ The code for getting the temperature handling the sensor DS18B20 is taken [here]
 
 ### Libraries
 
-The code id based on python 3 and makes use of these additional libraries: [gspread](https://github.com/burnash/gspread) and [oauth2client](https://github.com/google/oauth2client)
+The code is based on python 3 and makes use of these additional libraries: [gspread](https://github.com/burnash/gspread) and [oauth2client](https://github.com/google/oauth2client)
 
 ### Using OAuth2 for Authorization
 
